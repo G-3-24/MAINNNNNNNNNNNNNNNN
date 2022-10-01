@@ -1,0 +1,16 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Health Detection";
+    Text = "You will tp to spawn at 75";
+})
+local player = game.Players.LocalPlayer
+ 
+local Hum = player.Character:WaitForChild("Humanoid")
+ 
+ 
+if (Hum.Health / Hum.MaxHealth * 100) <= 75 then
+local CFrameEnd = CFrame.new(35, 43, -97) -- Place your coords in here
+local Time = 2   -- Time in secnds
+local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
+tween:Play()
+tween.Completed:Wait()
+end
