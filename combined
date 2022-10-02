@@ -1,0 +1,4 @@
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/G-3-24/MAINNNNNNNNNNNNNNNN/main/rejoinwhenkick'),true))()--rejoin on kick
+loadstring(game:HttpGet("https://raw.githubusercontent.com/veryskilledperson/anti/main/anticheats", true))()--AntiKicks
+loadstring(game:HttpGet(('https://pastebin.com/raw/YFQ1v0XM'),true))()--admin detec normal
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/veryskilledperson/master/main/removes%20kick%20%20tocuh'),true))()--destroys roof kick
