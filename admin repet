@@ -1,0 +1,5 @@
+_G.Condition = true
+while _G.Condition do -- Checks if the condition is true
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/G-3-24/MAINNNNNNNNNNNNNNNN/main/admin%20script%20add'),true))()--admin detec normal
+wait()
+end
